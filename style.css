@@ -1,0 +1,39 @@
+h1{
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+  font-size:45px; text-align:center;
+}
+a{
+  color:violet;
+  text-decoration: none;
+  border-bottom:10px;
+}
+#choice a{
+  color:rgb(150, 50, 150);
+  text-decoration: none;
+  border-bottom:10px;
+  text-align:center
+}
+#choice{
+  font-size:20px;
+  text-align:center;
+}
+#grid{
+  display:grid;
+  grid-template-columns:200px 1fr;
+}
+#grid ol{
+  list-style:none;
+  padding-left:30px;
+}
+#active{
+  color:gray;
+}
+.saw {
+  color:green;
+}
+#study_main{
+  padding-left:100px;
+}
+
