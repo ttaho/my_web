@@ -4,36 +4,60 @@ h1{
   padding:20px;
   font-size:45px; text-align:center;
 }
-a{
-  color:violet;
-  text-decoration: none;
-  border-bottom:10px;
-}
-#choice a{
-  color:rgb(150, 50, 150);
-  text-decoration: none;
-  border-bottom:10px;
-  text-align:center
-}
-#choice{
-  font-size:20px;
-  text-align:center;
-}
-#grid{
-  display:grid;
-  grid-template-columns:200px 1fr;
-}
-#grid ol{
-  list-style:none;
-  padding-left:30px;
-}
-#active{
-  color:gray;
-}
 .saw {
   color:green;
+  text-decoration:none;
 }
-#study_main{
-  padding-left:100px;
+#topMenu{
+  height: 30px;
+  width: 850px;
+  margin:auto;
+  margin-top:30px;
 }
-
+#topMenu ul li{
+  list-style:none;
+  color: white;
+  background-color: #2d2d2d;
+  line-height: 30px;
+  text-align: center;
+  float: left;
+  vertical-align:middle;
+}
+#topMenu .menuLink{
+  text-decoration:none;
+  color:white;
+  display:block;
+  width: 150px;
+  font-size: 12px;
+  font-weight:bold;
+  font-family:"Trebuchet MS", Dotum, Arial;
+}
+#topMenu .menuLink:hover{
+  color: violet;
+  background-color: #4d4d4d;
+}
+#hobby_youtube .laterview{
+  list-style:none;
+  padding-bottom:50px;
+}
+.drama{
+  display:table;
+  width:100%;
+  /* padding: 56.25% 0 0 0;
+  position: relative; */
+}
+.drama .drama_1{
+  display: table-cell;
+  /* vertical-align: middle; */
+}
+.container {
+  display: flex;
+  flex-wrap:wrap;
+  width:850px;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: space-evenly;
+  margin:auto;
+  margin-top:100px;
+  /* justify-content: center; */
+}
